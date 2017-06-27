@@ -1,16 +1,16 @@
 body{
     background-color: #558C89;
-}
-h1, .searchContainer{
     text-align: center;
     color: #FDF3E7;
 }
+
+h1, .searchContainer{
+    font-size: 2em;
+}
 .display{
     border: 1px solid black;
-    margin: 10px auto;
     width: 80%;
     background-color: #3B3738;
-    color: #FDF3E7;
     padding: 5px;
 }
 a{
@@ -18,16 +18,18 @@ a{
     color: cornflowerblue;
 }
 .searchtextbox{
-    height: 28px;
-    width: 200px;
+    height: 40px;
+    width: 210px;
 
 }
 .search{
-    height: 34px;
-    font-size: 17px;
-    color: #FDF3E7;
+    font-size: 11px;
     background-color: cornflowerblue;
     border: none;
-    margin-left: -4px;
-    padding-bottom: 5px;
+    margin-left: -8px;
+    padding: 16px;
+    font-weight: bold;
+}
+#searchResult{
+    margin-top: 35px;
 }
