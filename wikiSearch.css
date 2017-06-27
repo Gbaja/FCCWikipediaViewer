@@ -1,0 +1,33 @@
+body{
+    background-color: #558C89;
+}
+h1, .searchContainer{
+    text-align: center;
+    color: #FDF3E7;
+}
+.display{
+    border: 1px solid black;
+    margin: 10px auto;
+    width: 80%;
+    background-color: #3B3738;
+    color: #FDF3E7;
+    padding: 5px;
+}
+a{
+    margin: 10px;
+    color: cornflowerblue;
+}
+.searchtextbox{
+    height: 28px;
+    width: 200px;
+
+}
+.search{
+    height: 34px;
+    font-size: 17px;
+    color: #FDF3E7;
+    background-color: cornflowerblue;
+    border: none;
+    margin-left: -4px;
+    padding-bottom: 5px;
+}
